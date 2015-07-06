@@ -1,0 +1,29 @@
+{
+  "name": "mon_agent",
+  "version": "1.0.0",
+  "description": "monitoring agent",
+  "main": "agent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ildarka/mon_agent.git"
+  },
+  "keywords": [
+    "monitoring"
+  ],
+  "author": "ildarka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ildarka/mon_agent/issues"
+  },
+  "homepage": "https://github.com/ildarka/mon_agent#readme",
+  "dependencies": {
+    "diskusage": "^0.1.3",
+    "influx": "^4.0.0",
+    "json-rpc2": "^1.0.1",
+    "log4js": "^0.6.26",
+    "pg": "^4.4.0"
+  }
+}

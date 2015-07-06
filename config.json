@@ -1,0 +1,17 @@
+{
+  "agent": {
+    "port": 3000
+  },
+  "seriesName": "{{device}}_{{sensor}}",
+  "seriesNameRate": "{{device}}_{{sensor}}_rate",
+  "intervalInfo": 10000,
+  "intervalSensors": 5000,
+  "database" : "postgres://localhost/db",
+  "influxDB": {
+    "host" : "localhost",
+    "port" : 8086,
+    "username" : "root",
+    "password" : "root",
+    "database" : "mon"
+  }
+}
